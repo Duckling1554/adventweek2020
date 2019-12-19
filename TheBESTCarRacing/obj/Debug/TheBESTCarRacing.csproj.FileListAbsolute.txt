@@ -1,9 +1,0 @@
-C:\Users\polin\source\repos\TheBESTCarRacing\bin\Debug\TheBESTCarRacing.exe.config
-C:\Users\polin\source\repos\TheBESTCarRacing\bin\Debug\TheBESTCarRacing.exe
-C:\Users\polin\source\repos\TheBESTCarRacing\bin\Debug\TheBESTCarRacing.pdb
-C:\Users\polin\source\repos\TheBESTCarRacing\obj\Debug\TheBESTCarRacing.csprojAssemblyReference.cache
-C:\Users\polin\source\repos\TheBESTCarRacing\obj\Debug\TheBESTCarRacing.Form1.resources
-C:\Users\polin\source\repos\TheBESTCarRacing\obj\Debug\TheBESTCarRacing.Properties.Resources.resources
-C:\Users\polin\source\repos\TheBESTCarRacing\obj\Debug\TheBESTCarRacing.csproj.GenerateResource.cache
-C:\Users\polin\source\repos\TheBESTCarRacing\obj\Debug\TheBESTCarRacing.exe
-C:\Users\polin\source\repos\TheBESTCarRacing\obj\Debug\TheBESTCarRacing.pdb
