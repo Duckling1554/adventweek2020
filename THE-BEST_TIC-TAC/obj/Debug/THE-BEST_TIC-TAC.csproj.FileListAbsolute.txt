@@ -1,0 +1,9 @@
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\bin\Debug\THE-BEST_TIC-TAC.exe.config
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\bin\Debug\THE-BEST_TIC-TAC.exe
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\bin\Debug\THE-BEST_TIC-TAC.pdb
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\obj\Debug\THE-BEST_TIC-TAC.csprojAssemblyReference.cache
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\obj\Debug\THE_BEST_TIC_TAC.Form1.resources
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\obj\Debug\THE_BEST_TIC_TAC.Properties.Resources.resources
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\obj\Debug\THE-BEST_TIC-TAC.csproj.GenerateResource.cache
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\obj\Debug\THE-BEST_TIC-TAC.exe
+C:\Users\polin\source\repos\THE-BEST_TIC-TAC\obj\Debug\THE-BEST_TIC-TAC.pdb
