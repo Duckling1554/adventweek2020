@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TheBESTTetrisEVER;
+using THE_BEST_TIC_TAC;
 
 namespace AdventWeek2020
 {
@@ -28,17 +29,22 @@ namespace AdventWeek2020
 
         private void OneD_Click(object sender, RoutedEventArgs e)
         {
-            
-            
-            
+                                    
         }
         private void TwoD_Click(object sender, RoutedEventArgs e)
         {
-
+            var tetris = new TheBESTTetrisEVER.Form1();
+            tetris.Show();
         }
         private void ThreeD_Click(object sender, RoutedEventArgs e)
         {
-
+            var date = DateTime.UtcNow;
+            if (date.Year >= 2020)
+            {
+                var tetris = new THE_BEST_TIC_TAC.Form1();
+                tetris.Show();
+            }
+            
         }
         private void FourD_Click(object sender, RoutedEventArgs e)
         {
