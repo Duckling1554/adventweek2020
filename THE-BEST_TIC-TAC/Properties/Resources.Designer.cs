@@ -59,15 +59,5 @@ namespace THE_BEST_TIC_TAC.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _4081c4096cd82253eaccc8caa27fc4f1 {
-            get {
-                object obj = ResourceManager.GetObject("_4081c4096cd82253eaccc8caa27fc4f1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

@@ -25,7 +25,10 @@ namespace TheBESTTetrisEVER
                 this.KeyUp += new KeyEventHandler(KeyControl);
                 Init();
             }
-
+        //public void Show()
+        //{
+        //    this.Show();
+        //}
             public void Init()
             {
                 size = 25;
