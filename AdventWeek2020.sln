@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventWeek2020", "AdventWee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBESTCarRacing", "TheBESTCarRacing\TheBESTCarRacing.csproj", "{422C143B-C98C-4951-9E1B-08ACCAE95538}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THE-BEST_TIC-TAC", "THE-BEST_TIC-TAC\THE-BEST_TIC-TAC.csproj", "{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{422C143B-C98C-4951-9E1B-08ACCAE95538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422C143B-C98C-4951-9E1B-08ACCAE95538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422C143B-C98C-4951-9E1B-08ACCAE95538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

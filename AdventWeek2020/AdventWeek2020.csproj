@@ -117,6 +117,10 @@
     <Resource Include="Resources\6.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\THE-BEST_TIC-TAC\THE-BEST_TIC-TAC.csproj">
+      <Project>{a3b347f5-be4b-4bc4-9cec-b729ef1e5d38}</Project>
+      <Name>THE-BEST_TIC-TAC</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TheBESTCarRacing\TheBESTCarRacing.csproj">
       <Project>{422c143b-c98c-4951-9e1b-08accae95538}</Project>
       <Name>TheBESTCarRacing</Name>
