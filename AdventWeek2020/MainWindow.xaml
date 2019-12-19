@@ -1,0 +1,85 @@
+﻿<Window x:Class="AdventWeek2020.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdventWeek2020"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="MainWindow" Height="1080" Width="1920">
+    <!--<Window.Background>
+        <ImageBrush ImageSource="Resources\xmasback.png"></ImageBrush>
+    </Window.Background>-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="Total" Margin="20 0 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid x:Name="SixSeven" VerticalAlignment="Center" Height="auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button x:Name="SixD" Grid.Row="0" Click="SixD_Click" Width="230" Height="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\6.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="SevenD" Grid.Row="1" Click="SevenD_Click" Width="230" Height="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\7.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Column="1" x:Name="FiveOneTwo" VerticalAlignment="Center" Height="auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="OneD" Grid.Row="1" Click="OneD_Click" Height="230" Width="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\1.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="TwoD" Grid.Row="2" Click="TwoD_Click" Width="230" Height="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\2.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="FiveD" Grid.Row="0" Click="FiveD_Click" Width="230" Height="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\5.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Column="2" x:Name="FourThree" VerticalAlignment="Center" Height="auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button x:Name="ThreeD" Grid.Row="1" Click="ThreeD_Click" Width="230" Height="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\3.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="FourD" Grid.Row="0" Click="FourD_Click" Width="230" Height="230" Margin="10">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources\4.png" Stretch="Fill"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</Window>
