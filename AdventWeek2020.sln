@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBESTCarRacing", "TheBEST
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THE-BEST_TIC-TAC", "THE-BEST_TIC-TAC\THE-BEST_TIC-TAC.csproj", "{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBESTSnake", "TheBESTSnake\TheBESTSnake.csproj", "{47282A93-430C-4D4F-B4A1-0A45197F641D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBESTTetrisEVER", "TheBESTTetrisEVER\TheBESTTetrisEVER.csproj", "{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B347F5-BE4B-4BC4-9CEC-B729EF1E5D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47282A93-430C-4D4F-B4A1-0A45197F641D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47282A93-430C-4D4F-B4A1-0A45197F641D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47282A93-430C-4D4F-B4A1-0A45197F641D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47282A93-430C-4D4F-B4A1-0A45197F641D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -125,6 +125,14 @@
       <Project>{422c143b-c98c-4951-9e1b-08accae95538}</Project>
       <Name>TheBESTCarRacing</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TheBESTSnake\TheBESTSnake.csproj">
+      <Project>{47282a93-430c-4d4f-b4a1-0a45197f641d}</Project>
+      <Name>TheBESTSnake</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheBESTTetrisEVER\TheBESTTetrisEVER.csproj">
+      <Project>{76e0fd1b-4975-48af-8af6-775a72cfb0f6}</Project>
+      <Name>TheBESTTetrisEVER</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
