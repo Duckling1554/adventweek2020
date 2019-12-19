@@ -116,5 +116,11 @@
   <ItemGroup>
     <Resource Include="Resources\6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheBESTCarRacing\TheBESTCarRacing.csproj">
+      <Project>{422c143b-c98c-4951-9e1b-08accae95538}</Project>
+      <Name>TheBESTCarRacing</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
