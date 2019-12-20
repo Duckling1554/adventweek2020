@@ -67,7 +67,7 @@ namespace TheBESTCarRacing
         {
             for (int i = 0; i < items.Length; i++)
             {
-                if (items[i].Top >= 919)
+                if (items[i].Top >= 500)
                 {
                     items[i].Top = 0;
                     x = random.Next(i*150/2, 200+(i*48)/2);
