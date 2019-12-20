@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPredictor", "MagicPred
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutInfo", "AboutInfo\AboutInfo\AboutInfo.csproj", "{68DC4FE2-EF97-429F-9065-DBEE1F18CFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tetris", "TetrisBest\TetrisBest\Tetris\Tetris.csproj", "{63EFBB21-4C9E-4D73-99F1-268C9A9F350D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tetris", "..\TetrisBest\TetrisBest\Tetris\Tetris.csproj", "{63EFBB21-4C9E-4D73-99F1-268C9A9F350D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTetris", "NewTetris\NewTetris.csproj", "{E8C23E38-E581-4EC6-B904-B499C7957F9C}"
 EndProject
