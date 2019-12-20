@@ -33,7 +33,7 @@ namespace AdventWeek2020
 
         private void OneD_Click(object sender, RoutedEventArgs e)
         {
-            var oneD = new DateTime(2019, 12, 01);
+            var oneD = new DateTime(2019, 12, 31);
 
             if (IsAble(oneD))
             {
@@ -134,10 +134,7 @@ namespace AdventWeek2020
         }
         private void SevenD_Click(object sender, RoutedEventArgs e)
         {
-            var sevenD = new DateTime(2019, 12, 01
-                
-                
-);
+            var sevenD = new DateTime(2019, 12, 25);
 
             if (IsAble(sevenD))
             {
