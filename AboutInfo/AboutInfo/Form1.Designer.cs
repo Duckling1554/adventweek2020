@@ -36,12 +36,12 @@
             // 
             // Info
             // 
-            this.Info.BackColor = System.Drawing.Color.Firebrick;
+            this.Info.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Info.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Info.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Info.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Info.Font = new System.Drawing.Font("Lucida Sans Typewriter", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Info.ForeColor = System.Drawing.Color.White;
+            this.Info.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Info.Location = new System.Drawing.Point(206, 99);
             this.Info.Name = "Info";
             this.Info.Size = new System.Drawing.Size(559, 322);
@@ -59,7 +59,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::AboutInfo.Properties.Resources.pinesbackground;
             this.ClientSize = new System.Drawing.Size(962, 545);
             this.Controls.Add(this.Info);
             this.Name = "Form1";
