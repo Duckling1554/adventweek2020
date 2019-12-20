@@ -106,7 +106,6 @@ namespace MagicPredictor
             progress.Close();
             var index = random.Next(predictions.Length);
             var prediction = predictions[index];
-
             text = prediction;
             length = text.Length;
             timer1.Start();
