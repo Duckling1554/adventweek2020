@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         Title="MainWindow" Height="1080" Width="1920">
-    <!--<Window.Background>
-        <ImageBrush ImageSource="Resources\xmasback.png"></ImageBrush>
-    </Window.Background>-->
+    <Window.Background>
+        <ImageBrush ImageSource="Resources\xmasbackground.png"></ImageBrush>
+    </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
