@@ -38,13 +38,19 @@ namespace AdventWeek2020
         }
         private void ThreeD_Click(object sender, RoutedEventArgs e)
         {
-            var date = DateTime.UtcNow;
-            if (date.Year >= 2020)
+            var threeD = new DateTime(2019, 12, 29);
+
+            if (IsAble(threeD))
             {
                 var tetris = new THE_BEST_TIC_TAC.Form1();
                 tetris.Show();
             }
-            
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(threeD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
         private void FourD_Click(object sender, RoutedEventArgs e)
         {
@@ -62,5 +68,25 @@ namespace AdventWeek2020
         {
 
         }
-    }
+
+        bool IsAble(DateTime day)
+        {
+            var today = DateTime.Now;
+            if ((today.Year - day.Year) >= 0 & 
+                (today.Month - day.Month) >= 0 & 
+                (today.Day - day.Day >= 0))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        double Delta(DateTime day)
+        {
+            var today = DateTime.Now;
+            TimeSpan delta = day - today;
+            double result = (Math.Truncate(delta.TotalDays));
+            return result;
+        }
+}
 }
