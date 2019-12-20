@@ -36,7 +36,7 @@
             // 
             // Info
             // 
-            this.Info.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Info.BackColor = System.Drawing.SystemColors.HighlightText;
             this.Info.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Info.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Info.FlatStyle = System.Windows.Forms.FlatStyle.Popup;

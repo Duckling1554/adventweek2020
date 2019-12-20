@@ -28,23 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.PredictButton = new System.Windows.Forms.Button();
             this.Lprediction = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // PredictButton
             // 
-            this.PredictButton.BackgroundImage = global::MagicPredictor.Properties.Resources.snowballdown;
+            this.PredictButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.PredictButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.PredictButton.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PredictButton.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.PredictButton.Location = new System.Drawing.Point(353, 363);
+            this.PredictButton.Font = new System.Drawing.Font("Lucida Sans Typewriter", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PredictButton.ForeColor = System.Drawing.Color.Black;
+            this.PredictButton.Location = new System.Drawing.Point(256, 529);
             this.PredictButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PredictButton.Name = "PredictButton";
-            this.PredictButton.Size = new System.Drawing.Size(231, 51);
+            this.PredictButton.Size = new System.Drawing.Size(276, 56);
             this.PredictButton.TabIndex = 0;
-            this.PredictButton.Text = "PREDICT";
-            this.PredictButton.UseVisualStyleBackColor = true;
+            this.PredictButton.Text = "predict";
+            this.PredictButton.UseVisualStyleBackColor = false;
             this.PredictButton.Click += new System.EventHandler(this.PredictButton_Click);
             // 
             // Lprediction
@@ -55,13 +58,31 @@
             this.Lprediction.Size = new System.Drawing.Size(0, 17);
             this.Lprediction.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(226, 163);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(361, 172);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "What is yor prediction for 2020?";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MagicPredictor.Properties.Resources.snowball;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(817, 538);
+            this.ClientSize = new System.Drawing.Size(814, 667);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Lprediction);
             this.Controls.Add(this.PredictButton);
             this.DoubleBuffered = true;
@@ -80,6 +101,8 @@
 
         private System.Windows.Forms.Button PredictButton;
         private System.Windows.Forms.Label Lprediction;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

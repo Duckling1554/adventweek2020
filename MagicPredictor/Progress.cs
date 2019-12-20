@@ -20,7 +20,7 @@ namespace MagicPredictor
 
         private void Progress_Load(object sender, EventArgs e)
         {
-            this.Text = "Progress";
+            this.Text = "We're preparing your prediction...";
         }
        public void UpdateProgress(int i)
         {

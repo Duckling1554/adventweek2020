@@ -35,22 +35,25 @@
             // 
             this.progressBar1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressBar1.Location = new System.Drawing.Point(0, 0);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(337, 103);
+            this.progressBar1.Size = new System.Drawing.Size(300, 36);
             this.progressBar1.TabIndex = 0;
             // 
             // Progress
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 103);
+            this.BackColor = System.Drawing.Color.Cyan;
+            this.ClientSize = new System.Drawing.Size(300, 36);
             this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Progress";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Progress";
+            this.Text = "We\'re preparing your prediction...";
             this.Load += new System.EventHandler(this.Progress_Load);
             this.ResumeLayout(false);
 
