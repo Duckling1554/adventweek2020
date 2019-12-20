@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -126,7 +125,7 @@
             // 
             // car
             // 
-            this.car.Image = ((System.Drawing.Image)(resources.GetObject("car.Image")));
+            this.car.Image = global::TheBESTCarRacing.Properties.Resources.kisspng_suzuki_ciaz_maruti_suzuki_car_above_view_5b4c4f9c1d6a89_8943209615317277721205;
             this.car.Location = new System.Drawing.Point(80, 355);
             this.car.Name = "car";
             this.car.Size = new System.Drawing.Size(42, 60);
@@ -136,7 +135,7 @@
             // 
             // enemy1
             // 
-            this.enemy1.Image = ((System.Drawing.Image)(resources.GetObject("enemy1.Image")));
+            this.enemy1.Image = global::TheBESTCarRacing.Properties.Resources.kisspng_car_door_car_seat_top_view_motor_vehicle_red_car_top_view_5b5593dc11fcf6_4555093815323350680737;
             this.enemy1.Location = new System.Drawing.Point(19, 201);
             this.enemy1.Name = "enemy1";
             this.enemy1.Size = new System.Drawing.Size(42, 60);
@@ -146,7 +145,7 @@
             // 
             // enemy2
             // 
-            this.enemy2.Image = ((System.Drawing.Image)(resources.GetObject("enemy2.Image")));
+            this.enemy2.Image = global::TheBESTCarRacing.Properties.Resources.kisspng_car_door_car_seat_top_view_motor_vehicle_red_car_top_view_5b5593dc11fcf6_4555093815323350680737;
             this.enemy2.Location = new System.Drawing.Point(230, 218);
             this.enemy2.Name = "enemy2";
             this.enemy2.Size = new System.Drawing.Size(42, 60);
@@ -156,7 +155,7 @@
             // 
             // enemy3
             // 
-            this.enemy3.Image = ((System.Drawing.Image)(resources.GetObject("enemy3.Image")));
+            this.enemy3.Image = global::TheBESTCarRacing.Properties.Resources.kisspng_car_door_car_seat_top_view_motor_vehicle_red_car_top_view_5b5593dc11fcf6_4555093815323350680737;
             this.enemy3.Location = new System.Drawing.Point(316, 81);
             this.enemy3.Name = "enemy3";
             this.enemy3.Size = new System.Drawing.Size(42, 60);
@@ -178,7 +177,7 @@
             // 
             // coin1
             // 
-            this.coin1.Image = ((System.Drawing.Image)(resources.GetObject("coin1.Image")));
+            this.coin1.Image = global::TheBESTCarRacing.Properties.Resources._5a364041411e44_8325067215135048332667;
             this.coin1.Location = new System.Drawing.Point(97, 309);
             this.coin1.Name = "coin1";
             this.coin1.Size = new System.Drawing.Size(25, 25);
@@ -188,8 +187,8 @@
             // 
             // coin2
             // 
-            this.coin2.Image = ((System.Drawing.Image)(resources.GetObject("coin2.Image")));
-            this.coin2.Location = new System.Drawing.Point(230, 149);
+            this.coin2.Image = global::TheBESTCarRacing.Properties.Resources._5a364041411e44_8325067215135048332667;
+            this.coin2.Location = new System.Drawing.Point(333, 180);
             this.coin2.Name = "coin2";
             this.coin2.Size = new System.Drawing.Size(25, 25);
             this.coin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -198,7 +197,7 @@
             // 
             // coin3
             // 
-            this.coin3.Image = ((System.Drawing.Image)(resources.GetObject("coin3.Image")));
+            this.coin3.Image = global::TheBESTCarRacing.Properties.Resources._5a364041411e44_8325067215135048332667;
             this.coin3.Location = new System.Drawing.Point(257, 329);
             this.coin3.Name = "coin3";
             this.coin3.Size = new System.Drawing.Size(25, 25);
@@ -208,7 +207,7 @@
             // 
             // coin4
             // 
-            this.coin4.Image = ((System.Drawing.Image)(resources.GetObject("coin4.Image")));
+            this.coin4.Image = global::TheBESTCarRacing.Properties.Resources._5a364041411e44_8325067215135048332667;
             this.coin4.Location = new System.Drawing.Point(36, 93);
             this.coin4.Name = "coin4";
             this.coin4.Size = new System.Drawing.Size(25, 25);
@@ -232,7 +231,7 @@
             this.Restart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.Restart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Restart.ForeColor = System.Drawing.Color.Red;
-            this.Restart.Location = new System.Drawing.Point(134, 149);
+            this.Restart.Location = new System.Drawing.Point(139, 131);
             this.Restart.Name = "Restart";
             this.Restart.Size = new System.Drawing.Size(121, 61);
             this.Restart.TabIndex = 16;

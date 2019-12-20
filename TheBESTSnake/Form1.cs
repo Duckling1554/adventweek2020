@@ -12,11 +12,11 @@ namespace TheBESTSnake
 {
     public partial class Form1 : Form
     {
-        private int width = 900;
-        private int height = 800;
+        private int width=900;
+        private int height=800;
         private int sizeOfSides = 40;
-        private int dirX, dirY;
-        private int rI, rJ;
+        private int corX, corY;
+        private int radI, radJ;
         private PictureBox[] mouse = new PictureBox[400];
         private Label labelScore;
         private PictureBox cheese;
@@ -24,6 +24,12 @@ namespace TheBESTSnake
         public Form1()
         {
             InitializeComponent();
+
+            Initialization();
+
+        }
+        private void Initialization()
+        {
             this.Width = width;
             this.Height = height;
             labelScore = new Label();
@@ -31,31 +37,23 @@ namespace TheBESTSnake
             labelScore.ForeColor = Color.White;
             labelScore.Location = new Point(810, 10);
             this.Controls.Add(labelScore);
-            dirX = 1;
-            dirY = 0;
+            corX = 1;
+            corY = 0;
             cheese = new PictureBox();
-            cheese.BackColor = Color.Yellow;
+            cheese.Image = Properties.Resources.cheese;
             cheese.Size = new Size(sizeOfSides, sizeOfSides);
             GenerateMap();
-            GenerateFruit();
+            GenerateCheese();
             timer.Tick += new EventHandler(Update);
             timer.Interval = 500;
             timer.Start();
             mouse[0] = new PictureBox();
             mouse[0].Location = new Point(201, 201);
             mouse[0].Image = Properties.Resources.mouse;
-            //animal[0].BackColor = Color.Red;
             mouse[0].Size = new Size(sizeOfSides - 1, sizeOfSides - 1);
             this.Controls.Add(mouse[0]);
             this.KeyDown += new KeyEventHandler(KeyControl);
-            
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-           
-        }
-        
         private void GenerateMap()
         {
             for (int i = 0; i < width / sizeOfSides; i++)
@@ -81,97 +79,98 @@ namespace TheBESTSnake
             {
                 mouse[i].Location = mouse[i - 1].Location;
             }
-            mouse[0].Location = new Point(mouse[0].Location.X + dirX * (sizeOfSides), mouse[0].Location.Y + dirY * (sizeOfSides));
+            mouse[0].Location = new Point(mouse[0].Location.X + corX * (sizeOfSides), mouse[0].Location.Y + corY * (sizeOfSides));
             EatItself();
         }
         private void Update(Object myObject, EventArgs eventsArgs)
         {
             CheckBorders();
-            ToEatFruit();
+            ToEatCheese();
             MoveMouse();
         }
 
-        private void CheckBorders()
+        private void CheckBorders() 
+            //logic of checking borders is taken from online course of c# games on website http//:videosharp.info
         {
             if (mouse[0].Location.X < 0)
             {
-                for (int _i = 1; _i <= score; _i++)
+                for (int i = 1; i <= score; i++)
                 {
-                    this.Controls.Remove(mouse[_i]);
+                    this.Controls.Remove(mouse[i]);
                 }
                 score = 0;
                 labelScore.Text = "Score: " + score;
-                dirX = 1;
+                corX = 1;
             }
             if (mouse[0].Location.X > height)
             {
-                for (int _i = 1; _i <= score; _i++)
+                for (int i = 1; i <= score; i++)
                 {
-                    this.Controls.Remove(mouse[_i]);
+                    this.Controls.Remove(mouse[i]);
                 }
                 score = 0;
                 labelScore.Text = "Score: " + score;
-                dirX = -1;
+                corX = -1;
             }
             if (mouse[0].Location.Y < 0)
             {
-                for (int _i = 1; _i <= score; _i++)
+                for (int i = 1; i <= score; i++)
                 {
-                    this.Controls.Remove(mouse[_i]);
+                    this.Controls.Remove(mouse[i]);
                 }
                 score = 0;
                 labelScore.Text = "Score: " + score;
-                dirY = 1;
+                corY = 1;
             }
             if (mouse[0].Location.Y > height)
             {
-                for (int _i = 1; _i <= score; _i++)
+                for (int i = 1; i <= score; i++)
                 {
-                    this.Controls.Remove(mouse[_i]);
+                    this.Controls.Remove(mouse[i]);
                 }
                 score = 0;
                 labelScore.Text = "Score: " + score;
-                dirY = -1;
+                corY = -1;
             }
         }
 
-        private void GenerateFruit()
+        private void GenerateCheese()
         {
             Random r = new Random();
-            rI = r.Next(0, height - sizeOfSides);
-            int tempI = rI % sizeOfSides;
-            rI -= tempI;
-            rJ = r.Next(0, height - sizeOfSides);
-            int tempJ = rJ % sizeOfSides;
-            rJ -= tempJ;
-            rI++;
-            rJ++;
-            cheese.Location = new Point(rI, rJ);
+            radI = r.Next(0, height - sizeOfSides);
+            int tempI = radI % sizeOfSides;
+            radI -= tempI;
+            radJ = r.Next(0, height - sizeOfSides);
+            int tempJ = radJ % sizeOfSides;
+            radJ -= tempJ;
+            radI++;
+            radJ++;
+            cheese.Location = new Point(radI, radJ);
             this.Controls.Add(cheese);
         }
-        private void ToEatFruit()
+        private void ToEatCheese()
         {
-            if (mouse[0].Location.X == rI && mouse[0].Location.Y == rJ)
+            if (mouse[0].Location.X == radI && mouse[0].Location.Y == radJ)
             {
                 labelScore.Text = "Score: " + ++score;
                 mouse[score] = new PictureBox();
-                mouse[score].Location = new Point(mouse[score - 1].Location.X + 40 * dirX,
-                    mouse[score - 1].Location.Y - 40 * dirY);
+                mouse[score].Location = new Point(mouse[score - 1].Location.X + 40 * corX,
+                    mouse[score - 1].Location.Y - 40 * corY);
                 mouse[score].Size = new Size(sizeOfSides - 1, sizeOfSides - 1);
                 mouse[score].Image = Properties.Resources.mouse;
                 this.Controls.Add(mouse[score]);
-                GenerateFruit();
+                GenerateCheese();
             }
         }
         private void EatItself()
         {
-            for (int _i = 1; _i < score; _i++)
+            for (int i = 1; i < score; i++)
             {
-                if (mouse[0].Location == mouse[_i].Location)
+                if (mouse[0].Location == mouse[i].Location)
                 {
-                    for (int _j = _i; _j <= score; _j++)
+                    for (int _j = i; _j <= score; _j++)
                         this.Controls.Remove(mouse[_j]);
-                    score = score - (score - _i + 1);
+                    score = score - (score - i + 1);
                     labelScore.Text = "Score: " + score;
                 }
             }
@@ -183,20 +182,20 @@ namespace TheBESTSnake
             {
                 
                 case "Right":
-                    dirX = 1;
-                    dirY = 0;
+                    corX = 1;
+                    corY = 0;
                     break;
                 case "Left":
-                    dirX = -1;
-                    dirY = 0;
+                    corX = -1;
+                    corY = 0;
                     break;
                 case "Up":
-                    dirY = -1;
-                    dirX = 0;
+                    corY = -1;
+                    corX = 0;
                     break;
                 case "Down":
-                    dirY = 1;
-                    dirX = 0;
+                    corY = 1;
+                    corX = 0;
                     break;
             }
 

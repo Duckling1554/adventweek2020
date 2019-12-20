@@ -84,10 +84,10 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\little_mouse.png" />
+    <None Include="Resources\mouse.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mouse.png" />
+    <None Include="Resources\cheese.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

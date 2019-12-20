@@ -134,10 +134,6 @@
       <Project>{47282a93-430c-4d4f-b4a1-0a45197f641d}</Project>
       <Name>TheBESTSnake</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TheBESTTetrisEVER\TheBESTTetrisEVER.csproj">
-      <Project>{76e0fd1b-4975-48af-8af6-775a72cfb0f6}</Project>
-      <Name>TheBESTTetrisEVER</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\xmasbackground.png" />

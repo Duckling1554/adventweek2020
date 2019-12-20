@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5a364041411e44.8325067215135048332667.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-car-door-car-seat-top-view-motor-vehicle-red-car-top-view-5b5593dc11fcf6.4555093815323350680737.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-suzuki-ciaz-maruti-suzuki-car-above-view-5b4c4f9c1d6a89.8943209615317277721205.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
