@@ -122,6 +122,10 @@
       <Project>{68dc4fe2-ef97-429f-9065-dbee1f18cfe2}</Project>
       <Name>AboutInfo</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FlappyBirdv2\FlappyBirdv2.csproj">
+      <Project>{12837faf-6002-4451-9a58-76b1b75696a7}</Project>
+      <Name>FlappyBirdv2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagicPredictor\MagicPredictor.csproj">
       <Project>{0f37583b-9fd0-4d5c-9a95-2c07df04acce}</Project>
       <Name>MagicPredictor</Name>

@@ -19,7 +19,7 @@ namespace FlappyBirdv2
 
         public TheWall(int x, int y, bool isRotatedImage = false)
         {
-            wallImg = new Bitmap("C:\\Users\\User\\OneDrive\\Рабочий стол\\walls.jpg");
+            wallImg = new Bitmap("../../../FlappyBirdv2/Resources/walls.jpg");
             this.x = x;
             this.y = y;
             sizeX = 50;
