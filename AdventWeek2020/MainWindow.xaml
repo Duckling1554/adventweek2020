@@ -81,7 +81,10 @@
             </Grid>
         </Grid>
         <Button Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
-                Margin="20" Height="100" Width="250" Click="About_Click"> 
+                Margin="20" Height="100" Width="250" Click="About_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources\about.png" Stretch="Fill"/>
+            </Button.Background>
         </Button>
     </Grid>
 
