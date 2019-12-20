@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBESTSnake", "TheBESTSnak
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBESTTetrisEVER", "TheBESTTetrisEVER\TheBESTTetrisEVER.csproj", "{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPredictor", "MagicPredictor\MagicPredictor.csproj", "{0F37583B-9FD0-4D5C-9A95-2C07DF04ACCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E0FD1B-4975-48AF-8AF6-775A72CFB0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F37583B-9FD0-4D5C-9A95-2C07DF04ACCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F37583B-9FD0-4D5C-9A95-2C07DF04ACCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F37583B-9FD0-4D5C-9A95-2C07DF04ACCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F37583B-9FD0-4D5C-9A95-2C07DF04ACCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
