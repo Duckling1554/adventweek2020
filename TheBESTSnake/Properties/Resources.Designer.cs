@@ -63,9 +63,9 @@ namespace TheBESTSnake.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap little_mouse {
+        internal static System.Drawing.Bitmap cheese {
             get {
-                object obj = ResourceManager.GetObject("little_mouse", resourceCulture);
+                object obj = ResourceManager.GetObject("cheese", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
