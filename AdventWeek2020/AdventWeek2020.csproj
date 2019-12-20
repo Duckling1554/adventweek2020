@@ -118,6 +118,10 @@
     <Resource Include="Resources\6.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MagicPredictor\MagicPredictor.csproj">
+      <Project>{0f37583b-9fd0-4d5c-9a95-2c07df04acce}</Project>
+      <Name>MagicPredictor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\THE-BEST_TIC-TAC\THE-BEST_TIC-TAC.csproj">
       <Project>{a3b347f5-be4b-4bc4-9cec-b729ef1e5d38}</Project>
       <Name>THE-BEST_TIC-TAC</Name>
