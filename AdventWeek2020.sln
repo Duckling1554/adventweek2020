@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPredictor", "MagicPred
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutInfo", "AboutInfo\AboutInfo\AboutInfo.csproj", "{68DC4FE2-EF97-429F-9065-DBEE1F18CFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBirdv2", "..\FlappyBirdv2\FlappyBirdv2\FlappyBirdv2.csproj", "{12837FAF-6002-4451-9A58-76B1B75696A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBirdv2", "FlappyBirdv2\FlappyBirdv2\FlappyBirdv2.csproj", "{12837FAF-6002-4451-9A58-76B1B75696A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
