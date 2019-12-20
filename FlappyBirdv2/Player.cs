@@ -22,7 +22,7 @@ namespace FlappyBirdv2
 
         public Player(int x, int y)
         {
-            birdImg = new Bitmap("C:\\Users\\User\\OneDrive\\Рабочий стол\\birdd.png");
+            birdImg = new Bitmap("../../../FlappyBirdv2/Resources/birdd.png");
             this.x = x;
             this.y = y;
             size = 35;

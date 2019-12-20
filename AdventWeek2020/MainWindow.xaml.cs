@@ -17,6 +17,7 @@ using MagicPredictor;
 using TheBESTCarRacing;
 using AboutInfo;
 using Tetris;
+using FlappyBirdv2;
 
 namespace AdventWeek2020
 {
@@ -32,11 +33,13 @@ namespace AdventWeek2020
 
         private void OneD_Click(object sender, RoutedEventArgs e)
         {
-            var oneD = new DateTime(2019, 12, 31);
+            var oneD = new DateTime(2019, 12, 01);
 
             if (IsAble(oneD))
             {
-                
+                var bird = new FlappyBirdv2.Form1();
+                bird.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                bird.ShowDialog();
             }
 
             else
