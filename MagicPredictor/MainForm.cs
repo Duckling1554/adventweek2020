@@ -106,6 +106,7 @@ namespace MagicPredictor
             progress.Close();
             var index = random.Next(predictions.Length);
             var prediction = predictions[index];
+
             text = prediction;
             length = text.Length;
             timer1.Start();
@@ -120,8 +121,11 @@ namespace MagicPredictor
                 timer1.Stop();
                 PredictButton.Enabled = true;
             }
-            if (text != null)
-            label1.Text = text.Substring(0, count);
+            else
+            {
+                if (text != null)
+                    label1.Text = text.Substring(0, count);
+            }
             
         }
     }

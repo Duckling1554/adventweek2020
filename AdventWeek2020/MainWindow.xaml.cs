@@ -32,7 +32,7 @@ namespace AdventWeek2020
 
         private void OneD_Click(object sender, RoutedEventArgs e)
         {
-            var oneD = new DateTime(2019, 12, 31);
+            var oneD = new DateTime(2019, 12, 01);
 
             if (IsAble(oneD))
             {
@@ -48,7 +48,7 @@ namespace AdventWeek2020
         }
         private void TwoD_Click(object sender, RoutedEventArgs e)
         {
-            var twoD = new DateTime(2019, 12, 30);
+            var twoD = new DateTime(2019, 12, 01);
 
             if (IsAble(twoD))
             {
@@ -65,7 +65,7 @@ namespace AdventWeek2020
         }
         private void ThreeD_Click(object sender, RoutedEventArgs e)
         {
-            var threeD = new DateTime(2019, 12, 29);
+            var threeD = new DateTime(2019, 12, 01);
 
             if (IsAble(threeD))
             {
@@ -82,7 +82,7 @@ namespace AdventWeek2020
         }
         private void FourD_Click(object sender, RoutedEventArgs e)
         {
-            var fourD = new DateTime(2019, 12, 28);
+            var fourD = new DateTime(2019, 12, 01);
 
             if (IsAble(fourD))
             {
@@ -99,7 +99,7 @@ namespace AdventWeek2020
         }
         private void FiveD_Click(object sender, RoutedEventArgs e)
         {
-            var fiveD = new DateTime(2019, 12, 27);
+            var fiveD = new DateTime(2019, 12, 01);
 
             if (IsAble(fiveD))
             {
@@ -114,7 +114,7 @@ namespace AdventWeek2020
         }
         private void SixD_Click(object sender, RoutedEventArgs e)
         {
-            var sixD = new DateTime(2019, 12, 26);
+            var sixD = new DateTime(2019, 12, 01);
 
             if (IsAble(sixD))
             {
@@ -131,7 +131,7 @@ namespace AdventWeek2020
         }
         private void SevenD_Click(object sender, RoutedEventArgs e)
         {
-            var sevenD = new DateTime(2019, 12, 25);
+            var sevenD = new DateTime(2019, 12, 01);
 
             if (IsAble(sevenD))
             {
