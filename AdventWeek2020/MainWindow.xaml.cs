@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 using TheBESTTetrisEVER;
 using THE_BEST_TIC_TAC;
 using MagicPredictor;
-
+using TheBESTCarRacing;
 
 namespace AdventWeek2020
 {
@@ -31,7 +31,8 @@ namespace AdventWeek2020
 
         private void OneD_Click(object sender, RoutedEventArgs e)
         {
-                                    
+            var tetris = new TheBESTCarRacing.Form1();
+            tetris.Show();
         }
         private void TwoD_Click(object sender, RoutedEventArgs e)
         {

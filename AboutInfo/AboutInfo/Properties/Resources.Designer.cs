@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MagicPredictor.Properties {
+namespace AboutInfo.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MagicPredictor.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MagicPredictor.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AboutInfo.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,41 +61,11 @@ namespace MagicPredictor.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] document {
-            get {
-                object obj = ResourceManager.GetObject("document", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] predictions {
-            get {
-                object obj = ResourceManager.GetObject("predictions", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap snowball {
+        internal static System.Drawing.Bitmap pineback {
             get {
-                object obj = ResourceManager.GetObject("snowball", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap snowballdown {
-            get {
-                object obj = ResourceManager.GetObject("snowballdown", resourceCulture);
+                object obj = ResourceManager.GetObject("pineback", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

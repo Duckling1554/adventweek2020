@@ -38,9 +38,10 @@
             this.PredictButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.PredictButton.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PredictButton.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.PredictButton.Location = new System.Drawing.Point(435, 478);
+            this.PredictButton.Location = new System.Drawing.Point(353, 363);
+            this.PredictButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PredictButton.Name = "PredictButton";
-            this.PredictButton.Size = new System.Drawing.Size(260, 64);
+            this.PredictButton.Size = new System.Drawing.Size(231, 51);
             this.PredictButton.TabIndex = 0;
             this.PredictButton.Text = "PREDICT";
             this.PredictButton.UseVisualStyleBackColor = true;
@@ -49,21 +50,22 @@
             // Lprediction
             // 
             this.Lprediction.AutoSize = true;
-            this.Lprediction.Location = new System.Drawing.Point(285, 222);
+            this.Lprediction.Location = new System.Drawing.Point(253, 178);
             this.Lprediction.Name = "Lprediction";
-            this.Lprediction.Size = new System.Drawing.Size(0, 20);
+            this.Lprediction.Size = new System.Drawing.Size(0, 17);
             this.Lprediction.TabIndex = 1;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MagicPredictor.Properties.Resources.snowball;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(928, 595);
+            this.ClientSize = new System.Drawing.Size(817, 538);
             this.Controls.Add(this.Lprediction);
             this.Controls.Add(this.PredictButton);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";

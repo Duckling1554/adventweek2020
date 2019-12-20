@@ -15,7 +15,7 @@ namespace MagicPredictor
     public partial class MainForm : Form
     {
         private const string name = "MagicBall";
-        private readonly string filepath = $"{Environment.CurrentDirectory}\\document.json";
+        private readonly string filepath = "../../../MagicPredictor/Resources/predictions.json";
         string[] predictions;
         Random random = new Random();
         
