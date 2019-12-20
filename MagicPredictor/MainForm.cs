@@ -18,14 +18,18 @@ namespace MagicPredictor
         private readonly string filepath = "../../../MagicPredictor/Resources/predictions.json";
         string[] predictions;
         Random random = new Random();
-        
+        int count=0;
+        int length;
         public MainForm()
         {
             InitializeComponent();
+           
+            
         }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            
             this.Text = name;
             try
             {
@@ -76,11 +80,11 @@ namespace MagicPredictor
         //    PredictButton.Enabled = true;
 
         //}
-        int count = 0;
-        int length = 0;
+       
         string text;
         private async void PredictButton_Click(object sender, EventArgs e)
         {
+             count = 0;
             label1.Text = "";
             PredictButton.Enabled = false;
             var progress = new Progress();
@@ -109,6 +113,7 @@ namespace MagicPredictor
 
             text = prediction;
             length = text.Length;
+            timer1.Tick += new EventHandler(timer1_Tick);
             timer1.Start();
             
         }
