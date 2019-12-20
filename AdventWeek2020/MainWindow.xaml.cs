@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//using TheBESTTetrisEVER;
+using Tetris;
 using THE_BEST_TIC_TAC;
 using MagicPredictor;
 using TheBESTCarRacing;
@@ -86,9 +86,9 @@ namespace AdventWeek2020
 
             if (IsAble(fourD))
             {
-                //var tetris = new TheBESTTetrisEVER.Form1();
-                //tetris.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-                //tetris.ShowDialog();
+                var tetris = new Tetris.Tetris();
+                tetris.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                tetris.ShowDialog();
             }
             else
             {

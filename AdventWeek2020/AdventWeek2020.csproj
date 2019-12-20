@@ -126,6 +126,10 @@
       <Project>{0f37583b-9fd0-4d5c-9a95-2c07df04acce}</Project>
       <Name>MagicPredictor</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TetrisBest\TetrisBest\Tetris\Tetris.csproj">
+      <Project>{63efbb21-4c9e-4d73-99f1-268c9a9f350d}</Project>
+      <Name>Tetris</Name>
+    </ProjectReference>
     <ProjectReference Include="..\THE-BEST_TIC-TAC\THE-BEST_TIC-TAC.csproj">
       <Project>{a3b347f5-be4b-4bc4-9cec-b729ef1e5d38}</Project>
       <Name>THE-BEST_TIC-TAC</Name>
