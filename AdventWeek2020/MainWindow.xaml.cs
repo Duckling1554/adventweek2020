@@ -17,6 +17,7 @@ using THE_BEST_TIC_TAC;
 using MagicPredictor;
 using TheBESTCarRacing;
 using AboutInfo;
+
 namespace AdventWeek2020
 {
     /// <summary>
@@ -31,13 +32,36 @@ namespace AdventWeek2020
 
         private void OneD_Click(object sender, RoutedEventArgs e)
         {
-            var tetris = new TheBESTCarRacing.Form1();
-            tetris.Show();
+            var oneD = new DateTime(2019, 12, 31);
+
+            if (IsAble(oneD))
+            {
+                
+            }
+
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(oneD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
         private void TwoD_Click(object sender, RoutedEventArgs e)
         {
-            var tetris = new MagicPredictor.MainForm();
-            tetris.Show();
+            var twoD = new DateTime(2019, 12, 30);
+
+            if (IsAble(twoD))
+            {
+                var racing = new TheBESTCarRacing.Form1();
+                racing.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                racing.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(twoD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
         private void ThreeD_Click(object sender, RoutedEventArgs e)
         {
@@ -45,8 +69,9 @@ namespace AdventWeek2020
 
             if (IsAble(threeD))
             {
-                var tetris = new THE_BEST_TIC_TAC.Form1();
-                tetris.Show();
+                var tictac = new THE_BEST_TIC_TAC.Form1();
+                tictac.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                tictac.ShowDialog();
             }
             else
             {
@@ -57,19 +82,69 @@ namespace AdventWeek2020
         }
         private void FourD_Click(object sender, RoutedEventArgs e)
         {
+            var fourD = new DateTime(2019, 12, 28);
 
+            if (IsAble(fourD))
+            {
+                var tetris = new TheBESTTetrisEVER.Form1();
+                tetris.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                tetris.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(fourD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
         private void FiveD_Click(object sender, RoutedEventArgs e)
         {
+            var fiveD = new DateTime(2019, 12, 27);
 
+            if (IsAble(fiveD))
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(fiveD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
         private void SixD_Click(object sender, RoutedEventArgs e)
         {
+            var sixD = new DateTime(2019, 12, 26);
 
+            if (IsAble(sixD))
+            {
+                var snake = new TheBESTSnake.Form1();
+                snake.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                snake.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(sixD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
         private void SevenD_Click(object sender, RoutedEventArgs e)
         {
+            var sevenD = new DateTime(2019, 12, 25);
 
+            if (IsAble(sevenD))
+            {
+                var predictor = new MagicPredictor.MainForm();
+                predictor.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                predictor.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show
+                    ($"Only {Delta(sevenD)} more days to go!", "Too Early!",
+                    MessageBoxButton.OK);
+            }
         }
 
         bool IsAble(DateTime day)
@@ -88,14 +163,15 @@ namespace AdventWeek2020
         {
             var today = DateTime.Now;
             TimeSpan delta = day - today;
-            double result = (Math.Truncate(delta.TotalDays));
+            double result = (Math.Ceiling(delta.TotalDays));
             return result;
         }
 
         private void About_Click(object sender, RoutedEventArgs e)
         {
             var about = new AboutInfo.Form1();
-            about.Show();
+            about.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            about.ShowDialog();
         }
     }
 }
