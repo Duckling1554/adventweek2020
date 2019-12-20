@@ -118,6 +118,10 @@
     <Resource Include="Resources\6.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AboutInfo\AboutInfo\AboutInfo.csproj">
+      <Project>{68dc4fe2-ef97-429f-9065-dbee1f18cfe2}</Project>
+      <Name>AboutInfo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagicPredictor\MagicPredictor.csproj">
       <Project>{0f37583b-9fd0-4d5c-9a95-2c07df04acce}</Project>
       <Name>MagicPredictor</Name>

@@ -16,7 +16,7 @@ using TheBESTTetrisEVER;
 using THE_BEST_TIC_TAC;
 using MagicPredictor;
 using TheBESTCarRacing;
-
+using AboutInfo;
 namespace AdventWeek2020
 {
     /// <summary>
@@ -91,5 +91,11 @@ namespace AdventWeek2020
             double result = (Math.Truncate(delta.TotalDays));
             return result;
         }
-}
+
+        private void About_Click(object sender, RoutedEventArgs e)
+        {
+            var about = new AboutInfo.Form1();
+            about.Show();
+        }
+    }
 }

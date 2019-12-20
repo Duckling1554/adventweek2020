@@ -63,9 +63,9 @@ namespace AboutInfo.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pineback {
+        internal static System.Drawing.Bitmap pinesbackground {
             get {
-                object obj = ResourceManager.GetObject("pineback", resourceCulture);
+                object obj = ResourceManager.GetObject("pinesbackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -81,8 +81,7 @@
             </Grid>
         </Grid>
         <Button Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
-                Margin="20" Height="100" Width="250"> 
-            
+                Margin="20" Height="100" Width="250" Click="About_Click"> 
         </Button>
     </Grid>
 
