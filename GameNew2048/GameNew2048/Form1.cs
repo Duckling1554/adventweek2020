@@ -19,7 +19,7 @@ namespace GameNew2048
         public Form1()
         {   
             InitializeComponent();
-            this.KeyDown += new KeyEventHandler(_keyboard);
+            this.KeyDown += new KeyEventHandler(keyboard);
             map[0, 0] = 1;
             map[0, 1] = 1;
             map[1, 0] = 1;
@@ -129,7 +129,7 @@ namespace GameNew2048
             else if (sum % 8 == 0) pics[k, j].BackColor = Color.Maroon;
             else if (sum % 4 == 0) pics[k, j].BackColor = Color.Green;
         }
-        private void _keyboard(object sender, KeyEventArgs e)
+        private void keyboard(object sender, KeyEventArgs e)
         {
             bool ifPicsWasMoved = false;
             
