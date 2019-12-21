@@ -104,7 +104,7 @@ namespace AdventWeek2020
         {
             var fiveD = new DateTime(2019, 12, 27);
 
-            if (IsAble(fiveD))
+            if (IsAble(fiveD)) 
             {
                 var game = new GameNew2048.Form1();
                 game.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
