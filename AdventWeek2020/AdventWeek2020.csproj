@@ -126,6 +126,10 @@
       <Project>{12837faf-6002-4451-9a58-76b1b75696a7}</Project>
       <Name>FlappyBirdv2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GameNew2048\GameNew2048\GameNew2048.csproj">
+      <Project>{42243330-4e14-44dc-be70-f748f8d6902b}</Project>
+      <Name>GameNew2048</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MagicPredictor\MagicPredictor.csproj">
       <Project>{0f37583b-9fd0-4d5c-9a95-2c07df04acce}</Project>
       <Name>MagicPredictor</Name>

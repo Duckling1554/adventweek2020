@@ -106,7 +106,9 @@ namespace AdventWeek2020
 
             if (IsAble(fiveD))
             {
-                
+                var game = new GameNew2048.Form1();
+                game.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+                game.ShowDialog();
             }
             else
             {
